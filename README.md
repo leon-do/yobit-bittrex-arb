@@ -1,6 +1,6 @@
 # yobit-bittrex-arb
-another arb
 
+```
 { ant_btc:
    { percentDifference: 90.78285714285714,
      yobitPrice: 0.000007,
@@ -54,4 +54,5 @@ another arb
      yobitPrice: 0.00004211,
      bittrexPrice: 0.005198,
      yobitVol: 0.0193991,
-     bittrexVol: 14554.01340176 } 
+     bittrexVol: 14554.01340176 }
+```
