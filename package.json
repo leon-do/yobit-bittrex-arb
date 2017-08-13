@@ -1,0 +1,23 @@
+{
+  "name": "yobit-bittrex-arb",
+  "version": "1.0.0",
+  "description": "another arb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leon-do/yobit-bittrex-arb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leon-do/yobit-bittrex-arb/issues"
+  },
+  "homepage": "https://github.com/leon-do/yobit-bittrex-arb#readme",
+  "dependencies": {
+    "node-fetch": "^1.7.2"
+  }
+}
