@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/leon-do/yobit-bittrex-arb#readme",
   "dependencies": {
-    "node-fetch": "^1.7.2"
+    "json-to-table": "^4.0.0",
+    "node-fetch": "^1.7.2",
+    "request": "^2.81.0"
   }
 }
