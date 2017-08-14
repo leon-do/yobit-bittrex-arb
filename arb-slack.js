@@ -54,6 +54,7 @@ async function fkuRick(){
 
 				// then store
 				returnObject = {
+					coinPair: yobitCoinPair
 					percentDifference: (bittrexPrice - yobitPrice)/yobitPrice,
 					yobitPrice: yobitPrice,
 					bittrexPrice: bittrexPrice,
@@ -80,6 +81,7 @@ setInterval(() => {
 		if (Object.keys(data).length !== 0){
 
 const slackMsg = `
+coinPair : ${data.coinPair}
 percent difference: ${data.percentDifference}
 Yobit Price: ${data.yobitPrice}
 Bittrex Price: ${data.bittrexPrice}
