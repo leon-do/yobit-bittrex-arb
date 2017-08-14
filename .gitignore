@@ -1,5 +1,3 @@
 .gitignore
 node_modules
 accounts.txt
-arb-slack.js
-slack.js
