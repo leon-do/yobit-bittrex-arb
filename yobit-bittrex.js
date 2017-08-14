@@ -7,7 +7,7 @@ const Fetch = require('node-fetch')
 async function fkuRick(){
 
 	// these coins are in both yobit and bittrex
-	const commonCoins = ['synx_btc','zec_btc','game_btc','2give_btc','tkn_btc','aur_btc','rby_btc','xmg_btc','omg_btc','mco_btc','hmq_btc','bts_btc','etc_btc','xem_btc','rise_btc','bcc_btc','ant_btc','waves_btc','lsk_btc','exp_btc','eth_btc','aby_btc','bta_btc','snrg_btc','pkb_btc','spr_btc','ok_btc','dgb_btc','geo_btc','start_btc','via_btc','cann_btc','doge_btc','dash_btc','ppc_btc','vtc_btc','sys_btc','dgd_btc','nav_btc','ltc_btc','clam_btc','rdd_btc','bitb_btc','xvg_btc','pay_btc','egc_btc','cpc_btc','nlg_btc','sls_btc','mue_btc','dcr_btc','pivx_btc','draco_btc','club_btc','cloak_btc','crw_btc','tx_btc','ioc_btc','lun_btc','emc_btc','dct_btc','rep_btc','gcr_btc','sib_btc','infx_btc']
+	const commonCoins = ['synx_btc','zec_btc','game_btc','2give_btc','aur_btc','rby_btc','xmg_btc','mco_btc','hmq_btc','bts_btc','etc_btc','xem_btc','rise_btc','bcc_btc','waves_btc','lsk_btc','exp_btc','eth_btc','aby_btc','bta_btc','snrg_btc','pkb_btc','spr_btc','ok_btc','dgb_btc','geo_btc','start_btc','via_btc','cann_btc','doge_btc','dash_btc','ppc_btc','vtc_btc','sys_btc','ltc_btc','clam_btc','rdd_btc','egc_btc','cpc_btc','nlg_btc','sls_btc','mue_btc','dcr_btc','pivx_btc','draco_btc','club_btc','cloak_btc','crw_btc','tx_btc','ioc_btc','emc_btc','gcr_btc','infx_btc']
 	
 	// get bittrex data
 	const bittrex = 
