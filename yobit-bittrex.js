@@ -43,7 +43,7 @@ async function fkuRick(){
 			// if pairs match, then find the difference
 			// if difference is > 1%
 			if (yobitCoinPair === bittrexCoinPair 
-				&& (bittrexPrice - yobitPrice)/yobitPrice > 1 // <=== THIS IS WHAT MATTERS
+				&& (bittrexPrice - yobitPrice)/yobitPrice > 5 // <=== THIS IS WHAT MATTERS
 				){
 				
 
@@ -69,8 +69,14 @@ async function fkuRick(){
 }
 
 
-fkuRick()
-.then(data => console.log(data))
-.catch(err => {
+setInterval(() => {
 	fkuRick()
-})
+	.then(data => {
+		if (data !== {}){
+			console.log(data)
+		}
+	})
+	.catch(err => {
+		fkuRick()
+	})
+}, 60*1000)
