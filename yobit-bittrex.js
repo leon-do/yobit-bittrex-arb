@@ -72,7 +72,7 @@ async function fkuRick(){
 setInterval(() => {
 	fkuRick()
 	.then(data => {
-		if (data !== {}){
+		if (Object.keys(data).length !== 0){
 			console.log(data)
 		}
 	})
